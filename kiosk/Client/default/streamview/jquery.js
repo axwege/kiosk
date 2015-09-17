@@ -1,0 +1,1 @@
+/home/alex/Desktop/kiosk/Client/default/jquery.js

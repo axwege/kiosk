@@ -1,0 +1,22 @@
+<div class="item">
+<table>
+<tr>
+<th colspan=2>
+    <h5><a href="http://www.youtube.com/watch?v={{v_id}}">{{title}}</a></h5>
+</th>
+</tr>
+<tr>
+<td rowspan=2>
+    <img class="thumbnail" src="{{thumb}}">
+</td>
+<td>
+Posted By: {{up_by}}
+</td>
+</tr>
+<tr>
+<td>
+Date: {{up_at}}
+</td>
+</tr>
+</table>
+</div>

@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js">
+</script>
+<script type="text/javascript" src="host.js">
+</script>
+</head>
+<body>
+<form action="/home/alex/Desktop/kiosk/Server/action.php" method="post">
+<input type="file" name="file">
+<input type="text" name="source" onclick="window.confirm("are you sure that you want to launch a broadcast at")";>
+Web<input type="radio" id="web" name="web">Local<input type="radio" id="local" name="local">
+<input type="time" name="time">
+<input type="submit" value="Launch Broadcast">
+</form>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<html>
+<head>
+<script type="text/javascript" src="jquery.js">
+</script>
+<script type="text/javascript" src="host.js">
+</script>
+<script type="text/javascript" src="tplawesome.js">
+</script>
+<script src="https://apis.google.com/js/client.js?onload=onClientLoad">
+</script>
+<link rel="stylesheet" href="host.css">
+</head>
+<body>
+<table>
+<tr>
+<td id="form">
+<form action="action.php" method="post" enctype="multipart/form-data">
+Video Source:
+<br>
+<input type="file" name="upload" id="file">
+<input type="text" name="source" id="source" placeholder="Search Youtube Here">
+YouTube<input type="radio" id="utube" checked="checked"> Local<input type="radio" id="local" name="local"> Web<input type="radio" id="web" name="web"> 
+<br>
+<br>
+Launch Time:
+<input type="time" name="time" id="time">
+<input type="date" name="date" id="date"> 
+<input type="button" value="now" id="today">
+<br>
+*note: it may take up to 1 minute for the broadcast to begin
+<br>
+<br>
+<br>
+</form>
+<input type="button" value="Launch Broadcast" id="launch">
+</td>
+<td id="search_containter">
+<div id="search_results">
+</div>
+</td>
+</tr>
+</body>
+</html>

@@ -1,0 +1,1 @@
+for posting errors check php.ini file, and make sure permissions allow!

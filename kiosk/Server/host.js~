@@ -1,0 +1,20 @@
+$("document").ready(function(){
+$("#web").click(function(){$("#local").attr('checked',false)});
+$("#local").click(function(){$("#web").attr('checked',false)});
+$("#launch").click(function(){
+	var source = $("#source").val();
+	var type = $("#local").checked();
+	if (type==true) {var type = "local"}
+	else {var type = "web"}
+});
+});
+
+function write(mode){
+$.ajax({
+	url: "http://localhost/switches.json",
+	dataType: "jsonp",
+	success: function(data){
+		data['mode']=broadcast;
+	}
+});
+}

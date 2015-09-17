@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<?php
+echo $_POST["file"];
+echo $_POST["source"];
+echo $_POST["time"];
+?>
+</body>
+</html>
